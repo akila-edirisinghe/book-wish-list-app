@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edit_book_title"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:ems="10"
+        android:hint="@string/book_title"
+        android:inputType="text"
+        android:text="@string/book_title"
+        android:maxLength="50"/>
+
+    <EditText
+        android:id="@+id/edit_author"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/author_name"
+        android:text="@string/author_name"
+        android:maxLength="30"/>
+
+    <EditText
+        android:id="@+id/edit_genre"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/genre_name"
+        android:text="@string/genre_name" />
+
+    <EditText
+        android:id="@+id/edit_public_year"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="4"
+        android:hint="@string/publication_year"
+        android:digits="0123456789"
+        android:visibility="gone"
+        />
+
+    <Switch
+        android:id="@+id/Status"
+        android:layout_width="104dp"
+        android:layout_height="48dp"
+        android:text="Status" />
+
+
+</LinearLayout>

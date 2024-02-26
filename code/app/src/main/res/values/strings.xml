@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Edirisin-MyBookWishlist</string>
+    <string name="book_title">book title</string>
+    <string name="author_name">author name</string>
+    <string name="genre_name">genre name</string>
+    <string name="publication_year">publication year</string>
+    <string name="status">status</string>
+    <string name="read_count">read count</string>
+    <string name="book_count">book count</string>
+</resources>
